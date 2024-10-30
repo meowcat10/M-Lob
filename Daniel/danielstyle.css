@@ -1,0 +1,287 @@
+body{
+    background-image: url("/Danielpictures/Danielbackground.png");
+    background-repeat: no-repeat;
+    max-width: 320px;
+    background-attachment: fixed;
+}
+a{
+    color: azure;
+}
+
+
+#Checkyourtable{
+    color: azure;
+    text-align: left;
+    font-size: 17px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #8b271c;
+    padding: 7px;
+    vertical-align: center;
+    font-family: "Libre Baskerville", sans-serif;
+    width: 290px;
+    box-shadow: 2px 5px 6px rgba(57, 48, 48, 0.27);;
+}
+#Market{
+    color: azure;
+    text-align: left;
+    font-size: 13px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #736d5a;
+    padding: 7px;
+    width: 300px;
+    height: 90px;
+    vertical-align: center;
+    box-shadow: 2px 5px 6px rgba(57, 48, 48, 0.27);;
+    }
+
+.twoColumns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right {
+    max-width: 100%;
+    margin-left: 10px;
+}
+.responsive {
+    max-width: 90px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.responsiveclothing{
+    max-width: 175px;
+    height: auto;
+}
+.twoColumnswithbgprofile1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url("Danielpictures/Danielprofilebackground.jpg");
+    box-shadow: 2px 5px 6px rgba(57, 48, 48, 0.27);
+    width: 335px;
+}
+.twoColumnswithbgprofile2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url("Danielpictures/Danielmariebackground.jpg");
+    box-shadow: 2px 5px 6px rgba(57, 48, 48, 0.27);
+    width: 335px;
+}
+.responsivewithbg {
+    width: 130px;
+    height: 160px;
+    border-radius: 10px;
+    margin: 7px;
+}
+.Profilepicture {
+    position: relative;
+    text-align: center;
+}
+.bottomlefttext {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    color: azure;
+}
+.profilebottomlefttext {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    color: azure;
+    font-size: 12px;
+    text-align: left;
+}
+.profiletoplefttext {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    color: azure;
+    text-align: left;
+}
+
+#Tableoverview{
+        color: #000000;
+        text-align: left;
+        font-size: 15px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background: rgba(138, 39, 28, 0);
+        padding: 7px;
+        width: 310px;
+        height: 90px;
+        vertical-align: center;
+        box-shadow: 2px 5px 6px rgba(57, 48, 48, 0);
+    }
+#Minitable{
+    color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: rgb(138, 39, 28);
+    padding: 7px;
+    width: 160px;
+    height: 35px;
+    vertical-align: center;
+    box-shadow: 2px 5px 6px rgba(57, 48, 48, 0);
+}
+
+.responsiveQR {
+    max-width: 120px;
+    height: auto;
+}
+.twoColumnswithoutbg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 335px;
+}
+.responsivewithoutbg {
+    width: 150px;
+    height: 190px;
+    border-radius: 10px;
+    margin: 7px;
+    box-shadow: 2px 5px 6px rgba(57, 48, 48, 0.27);
+}
+
+.swipe{
+    overflow:auto;
+    white-space:nowrap;
+    margin-left: 20px;
+}
+#Yourtable{
+    color: #000000;
+    text-align: left;
+    font-size: 15px;
+    border-radius: 10px;
+    background: rgba(138, 39, 28, 0);
+    padding: 7px;
+    width: 310px;
+    height: 35px;
+    vertical-align: center;
+}
+#Priceshow{
+    color: #000000;
+    text-align: left;
+    font-size: 13px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #f0ead4;
+    padding: 7px;
+    width: 300px;
+    height: 35px;
+    vertical-align: center;
+    box-shadow: 2px 5px 6px rgba(57, 48, 48, 0.27);;
+}
+#threeColumnswithoutbg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 335px;
+}
+.threeresponsivewithoutbg {
+    width: 100px;
+    height: 110px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: #BE9174;
+    box-shadow: 2px 5px 6px rgba(57, 48, 48, 0.27);
+    font-size: 13px;
+    color: azure;
+
+}
+.statboxes{
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    color: azure;
+    font-size: 10px;
+    text-align: center;
+}
+.Yourwallet{
+    color: #8a271c;
+    text-align: left;
+    font-size: 17px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #f2ecd6;
+    padding: 10px;
+    vertical-align: center;
+    font-family: "Libre Baskerville", sans-serif;
+    width: 290px;
+    box-shadow: 2px 5px 6px rgba(57, 48, 48, 0.27);;
+}
+.QRCode{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+
+.contact{
+    color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+    border-radius: 10px;
+    background: rgb(114, 108, 89);
+    padding: 8px;
+    vertical-align: right;
+    height: 18px;
+    vertical-align: center;
+    box-shadow: 2px 5px 6px rgba(57, 48, 48, 0);
+}
+.SoMe{
+    color: #736d5a;
+    text-align: left;
+    font-size: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0);
+    padding: 8px;
+    height: 18px;
+    vertical-align: right;
+    box-shadow: 2px 5px 6px rgba(57, 48, 48, 0);
+    justify-content: space-evenly;
+}
+.Searches{
+    color: #736d5a;
+    text-align: left;
+    font-size: 10px;
+    border-radius: 10px;
+    background: #f2ecd6;
+    margin-left: 10px;
+    height: 30px;
+    line-height: center;
+    font-family: "Libre Baskerville", sans-serif;
+    width: 98%;
+}
+.Minisearches{
+    color: #736d5a;
+    text-align: left;
+    font-size: 10px;
+    border-radius: 10px;
+    background: #f2ecd6;
+    margin-left: 10px;
+    height: 30px;
+    line-height: center;
+    font-family: "Libre Baskerville", sans-serif;
+    width: 100%;
+}
+.littleqr{
+    width: 30px;
+    line-height: 30px;
+    padding-right: 15px;
+
+
+}
