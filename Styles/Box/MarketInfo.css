@@ -1,0 +1,164 @@
+
+/* Market - Info */
+.MarketInfo{
+    width: 350px;
+    height:105px;
+    background-color: #726c5a;
+
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: inline-block;
+    position: relative;
+
+    top: 20px;
+}
+
+/* Market Text */
+.MarketHeadline{
+    display:inline-block;
+    position: absolute;
+    left: 50px;
+    top: 12px;
+    font-weight:bold;
+    font-size: 18px;
+
+
+    margin:0;
+
+}
+
+.MarketText{
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 35px;
+    font-size: 14px;
+    margin:0;
+}
+
+
+/* Market Icons */
+.fa-arrow-left{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 15px;
+    color: black;
+    transform:scale(200%);
+}
+
+/* Market Image */
+
+.MarketContainer img {
+    display:inline-block;
+    position: absolute;
+    transform:scale(45%);
+    left: 192px;
+    top: -52px;
+}
+
+
+
+/* Sign Up */
+.SignUpBox{
+    width: 250px;
+    height: 40px;
+    background-color: #8a271c;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: 45px;
+    left: 61px;
+    margin-bottom:20px;
+}
+.SignUpText{
+    font-size: 18px;
+    margin-top:10px;
+    color:white;
+    font-family: "Times New Roman", sans-serif;
+}
+
+/* Map */
+.MapText{
+    display:block;
+    position: relative;
+    margin-bottom:45px;
+    top:40px;
+    left: 5px;
+    font-weight: bold;
+}
+
+/* Who is Coming? */
+.WhoText, .SellingLikedTables, .VisitingPeopleText{
+    display: inline-block;
+    position: relative;
+    left:5px;
+}
+
+.User{
+    display:flex;
+    flex: 1 1 calc(33.33% - 20px);
+    box-sizing: border-box;
+}
+
+.UsersComing{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:10px;
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+
+.User p{
+    margin:0;
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    top:6px;
+    left:5px;
+}
+
+.Heart{
+    display: inline-block;
+    position: absolute;
+    transform:scale(60%);
+}
+
+
+
+/* Seller */
+
+.SellerInfoBox{
+    display:inline-block;
+    position: relative;
+    left: 10px;
+    top: 20px;
+    width: 350px;
+    height:125px;
+    border-radius: 10px;
+    background-color: #f2ecd7;
+}
+
+.Seller {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 14px;
+    gap: 10px;
+    position: relative;
+}
+
+.SellerContact{
+    position: relative;
+    font-size: 13px;
+    margin-left: 10px;
+    line-height: 18px;
+}
+.Seller img {
+    transform: scale(130%);
+    position: relative;
+    left:-20px;
+}

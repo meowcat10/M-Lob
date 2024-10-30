@@ -1,0 +1,24 @@
+.InterestedBox {
+    display: inline-block;
+    position: relative;
+    margin-top:10px;
+    width:100%;
+    height:var(--InterestedBoxHeightValue);
+    background-image: url("/Pictures/interestedbackground.png");
+    overflow:hidden;
+}
+
+
+.InterestedBoxPictureContainer{
+    display:flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height:100%;
+}
+
+.InterestedBoxPictureContainer img {
+    width: var(--InterestedPictureWidthValue);
+}
+

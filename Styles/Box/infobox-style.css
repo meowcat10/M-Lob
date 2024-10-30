@@ -1,0 +1,44 @@
+
+
+/* Info box - Styling */
+.Infobox{
+    display:inline-block;
+    position:relative;
+    top:15px;
+    width: var(--BoxWidthValue);
+    height: var(--BoxHeightValue);
+    border-top-right-radius: var(--BoxRadiusValue);
+    border-bottom-right-radius: var(--BoxRadiusValue);
+    margin-bottom:15px;
+    background-color: #732b2b;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7);
+}
+.InfoboxContainer{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.InfoboxContainer img {
+    display:inline-block;
+    position:relative;
+    width: var(--BoxPictureWidth);
+    bottom:38px;
+    left:11px;
+    transform:scale(125%);
+    clip-path: circle(50%);
+}
+
+.InfoboxText{
+    color: white;
+    font-weight: bold;
+    font-size: var(--BoxTextSize);
+    text-align: center;
+    top:4px;
+    position:relative;
+    display:inline-block;
+    left:10px;
+}
+
+
+

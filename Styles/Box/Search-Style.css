@@ -1,0 +1,118 @@
+
+
+.LookingCategory{
+    display:flex;
+    position: relative;
+    width: 375px;
+    height: 60px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.LookingHeadline{
+    display:inline-block;
+    position: relative;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-family: "Times New Roman", sans-serif;
+    height: 30px;
+}
+
+.fa-arrow-left{
+    display:inline-block;
+    position: relative;
+
+    transform:scale(200%);
+}
+
+.SearchTags{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    width: 350px;
+    height:30px;
+    background-color: #f2ecd7;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.FilterCategory{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    width: 165px;
+    height:30px;
+    background-color: #f2ecd7;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.FilterLocation{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    width: 165px;
+    height:30px;
+    background-color: #f2ecd7;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.FilterCategory input{
+    display:inline-block;
+    position: relative;
+    left: 5px;
+    height:28px;
+    width:155px;
+    font-size: 15px;
+    border:none;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.SearchTags input {
+    display:inline-block;
+    position: relative;
+    left: 5px;
+    height:28px;
+    width:335px;
+    font-size: 15px;
+    border:none;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.FilterLocation input{
+    display:inline-block;
+    position: relative;
+    left: 5px;
+    height:28px;
+    width:150px;
+    font-size: 15px;
+    border:none;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.items{
+    width: 100%;
+    height:600px;
+    display:grid;
+    top:110px;
+    gap:5px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 150px 150px;
+
+}
+.items img{
+    height: 180px;
+    width:100%;
+}

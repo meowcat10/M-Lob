@@ -1,0 +1,20 @@
+.WelcomeBack{
+    display:inline-block;
+    font-weight: bold;
+    position: relative;
+    font-size: var(--WelcomeTextSize);
+    margin-bottom:15px;
+    margin-top:10px;
+    top:10px;
+    left:6px;
+}
+
+
+.PageText{
+    display:block;
+    top:20px;
+    left:6px;
+    position: relative;
+    font-size:var(--PageTextSize);
+    font-weight: bold;
+}

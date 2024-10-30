@@ -1,0 +1,20 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.PageContainer{
+    display:inline-block;
+    background-image: url("/Pictures/background-image.png");
+    width:375px;
+    height:667px;
+}
+
+
+

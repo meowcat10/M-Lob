@@ -1,0 +1,120 @@
+
+
+
+
+
+
+.MenuBottom{
+    width: 375px;
+    height: 70px;
+    margin-bottom:10px;
+    display:inline-block;
+    margin-top: 150px;
+    position: relative;
+    bottom: 70px;
+}
+
+.MenuBottomContainer{
+    width:100%;
+}
+
+
+.NeedHelp{
+    width: 80px;
+    height: 40px;
+    background-color: #726c5a;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 5px;
+}
+
+.HelpText{
+    font-size: 12px;
+    margin:0;
+    color: #726c5a;
+    font-weight: bold;
+    display:inline-block;
+    position: absolute;
+    top: 3px;
+    left: 22px;
+}
+
+
+.FollowUs{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    left: 210px;
+    bottom: 20px;
+
+    width: 130px;
+    height: 40px;
+}
+
+.FollowText{
+    font-size: 12px;
+    color:#726c5a;
+    margin:0;
+    font-weight: bold;
+    display:inline-block;
+    position: absolute;
+    left: 220px;
+    bottom:60px;
+    top:6px;
+}
+
+/* Menu Icons */
+.fa-envelope, .fa-phone{
+    transform:scale(150%);
+}
+
+.fa-instagram, .fa-facebook, .fa-twitter{
+    transform: scale(180%);
+    color: #726c5a;
+}
+
+
+/* Fixed Menu */
+
+.QuickMenuContainer{
+    display: inline-block;
+    position: fixed;
+    width: 375px;
+    border-top: 2px solid #726c5a;
+    min-height: 70px;
+    background-color: white;
+    z-index: 4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    bottom: 1px;
+}
+
+
+
+/* Fixed Menu - Icons */
+
+
+.QuickIcons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    height: 50px;
+}
+
+.fa-face-smile, .fa-heart, .fa-plus, .fa-magnifying-glass{
+
+    transform:scale(230%);
+    color: #726c5a;
+
+}

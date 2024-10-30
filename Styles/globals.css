@@ -1,0 +1,37 @@
+:root{
+    /* Banner (TOP) */
+    --bannercolor: #ffffff;
+    --LogoSize: 0.6;
+
+    /* Box Values */
+    --BoxTextSize: 20px;
+    --BoxPictureWidth: 100px;
+    --BoxRadiusValue: 20px;
+    --BoxWidthValue: 291px;
+    --BoxHeightValue: 80px;
+
+    /* News Values */
+    --NewsHeadlineSize: 16px;
+    --NewsTextSize: 14px;
+    --NewsTagsSize: 12px;
+    --NewsboxWidthValue: 338px;
+    --NewsboxHeightValue: 100px;
+
+    /* Interested Box & Picture */
+    --InterestedBoxHeightValue: 200px;
+    --InterestedPictureWidthValue: 125px;
+
+    /* Your Info */
+    --YourInfoProfilePictureWidth: 200px;
+    --YourInfoBackgroundBorderRadius: 5px;
+
+
+    /* Page Text */
+    --PageTextSize: 20px;
+
+    /* Welcome back (Text) */
+    --WelcomeTextSize: 16px;
+
+
+
+}
