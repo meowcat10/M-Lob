@@ -64,3 +64,9 @@
    transform: scale(240%);
    color: #8a271c;
 }
+
+.fa-qrcode{
+    display: inline-block;
+    position: relative;
+    right:20px;
+}
