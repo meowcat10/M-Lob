@@ -19,10 +19,12 @@
 
     /* Interested Box & Picture */
     --InterestedBoxHeightValue: 200px;
-    --InterestedPictureWidthValue: 125px;
+    --InterestedPictureWidthValue: 110px;
+    --InterestedPictureHeightValue: 160px;
 
     /* Your Info */
-    --YourInfoProfilePictureWidth: 200px;
+    --YourInfoProfilePictureWidth: 210px;
+    --YourInfoProfilePictureHeight:150px;
     --YourInfoBackgroundBorderRadius: 5px;
 
 

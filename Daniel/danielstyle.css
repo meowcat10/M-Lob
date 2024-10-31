@@ -1,8 +1,8 @@
 body{
-    background-image: url("/Danielpictures/Danielbackground.png");
+    background-image: url("../Pictures/background-image.png");
     background-repeat: no-repeat;
-    max-width: 320px;
     background-attachment: fixed;
+    margin:0;
 }
 a{
     color: azure;
@@ -62,7 +62,7 @@ a{
     justify-content: space-around;
     background-image: url("Danielpictures/Danielprofilebackground.jpg");
     box-shadow: 2px 5px 6px rgba(57, 48, 48, 0.27);
-    width: 335px;
+    width: 100%;
 }
 .twoColumnswithbgprofile2{
     display: flex;
@@ -70,7 +70,7 @@ a{
     justify-content: space-around;
     background-image: url("Danielpictures/Danielmariebackground.jpg");
     box-shadow: 2px 5px 6px rgba(57, 48, 48, 0.27);
-    width: 335px;
+    width: 100%;
 }
 .responsivewithbg {
     width: 130px;
@@ -125,7 +125,9 @@ a{
     border-bottom-right-radius: 10px;
     background: rgb(138, 39, 28);
     padding: 7px;
-    width: 160px;
+    position: relative;
+    right:7px;
+    width: 180px;
     height: 35px;
     vertical-align: center;
     box-shadow: 2px 5px 6px rgba(57, 48, 48, 0);
@@ -138,8 +140,7 @@ a{
 .twoColumnswithoutbg{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 335px;
+    justify-content: space-evenly;
 }
 .responsivewithoutbg {
     width: 150px;
@@ -238,7 +239,6 @@ a{
     border-radius: 10px;
     background: rgb(114, 108, 89);
     padding: 8px;
-    vertical-align: right;
     height: 18px;
     vertical-align: center;
     box-shadow: 2px 5px 6px rgba(57, 48, 48, 0);
@@ -251,7 +251,6 @@ a{
     background: rgba(255, 255, 255, 0);
     padding: 8px;
     height: 18px;
-    vertical-align: right;
     box-shadow: 2px 5px 6px rgba(57, 48, 48, 0);
     justify-content: space-evenly;
 }
@@ -263,7 +262,6 @@ a{
     background: #f2ecd6;
     margin-left: 10px;
     height: 30px;
-    line-height: center;
     font-family: "Libre Baskerville", sans-serif;
     width: 98%;
 }
@@ -275,7 +273,6 @@ a{
     background: #f2ecd6;
     margin-left: 10px;
     height: 30px;
-    line-height: center;
     font-family: "Libre Baskerville", sans-serif;
     width: 100%;
 }

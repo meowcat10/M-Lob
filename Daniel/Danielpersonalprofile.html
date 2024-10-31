@@ -4,30 +4,50 @@
     <meta charset="UTF-8">
     <title>Your Profile</title>
     <link rel="stylesheet" href="danielstyle.css">
+    <link rel="stylesheet" href ="../Styles/Banner/Menu-Style.css"> <!-- Used for Quick Menu (Fixed) -->
     <meta name ="viewport" content = "max-width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c6e2dd5749.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<div class="QuickMenu">
+    <div class="QuickMenuContainer">
+        <div class="QuickIcons">
+            <a href ="Danielpersonalprofile.html">
+                <i class="fa-regular fa-face-smile"></i>
+            </a>
+            <a href = "DanielYourLikes.html">
+                <i class="fa-regular fa-heart"></i>
+            </a>
+            <a href ="../MaxT/Tema%204-kopi/NytproduktMax.html">
+                <i class="fa-solid fa-plus"></i>
+            </a>
+            <a href ="../Search.html">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
 <div class="twoColumns">
-    <div class="left"> <a href="../loppe.html"> <img src="../Pictures/RedLogo.png" width="132px" alt="Logo"/> </a> </div>
+    <div class="left"> <a href="../loppe.html"> <img src="Danielpictures/DanielLogo.png" width="180px" alt="Logo"/> </a> </div>
     <div class="right">
         <i class="fa-solid fa-qrcode fa-xl" style="color: #000000; margin-top: 35px; margin-right: 5px"></i>
         <a href = "../MaxT/Tema%204-kopi/Settings.html">
-            <i class="fa-solid fa-gear fa-xl" style="color: #8b271c; margin-top: 35px; margin-right: 5px"></i>
+            <i class="fa-solid fa-gear fa-xl" style="color: #8b271c; margin-top: 35px; margin-right: 10px"></i>
         </a>
     </div>
 </div>
 <br>
 <div class="Profilepicture">
-    <img src="Danielpictures/Danielemmaprofilepicture.png" width="300px" style="border-radius: 10px; margin-left: 15px; box-shadow: 2px 5px 6px rgba(57, 48, 48, 0.27);">
+    <img src="Danielpictures/Danielemmaprofilepicture.png" width="94%" style="border-radius: 10px; box-shadow: 2px 5px 6px rgba(57, 48, 48, 0.27);">
     <div class="profiletoplefttext">
-        <a href ="../loppe.html">
-            <p style="font-size: 25px; margin-top: 0px" class="fa-solid fa-arrow-left"></p>
+        <a href ="../loppe.html" style ="color:black;">
+            <p style="font-size: 25px; margin-left: 5px; margin-top:3px; transform:scale(125%);"><i class="fa-solid fa-arrow-left"></i></p>
         </a>
     </div>
     <div class="profilebottomlefttext">
-        <p style="font-size: 30px; margin-bottom: 2px"><b>Emma Jensen</b></p>
-        <p style="margin-top: 0px; font-family: Arial, sans-serif">Looking for cool fits for little cash :)
+        <p style="font-size: 30px; margin-bottom: 2px; margin-left:10px;"><b>Emma Jensen</b></p>
+        <p style="margin-top: 0; font-family: Arial, sans-serif; margin-left: 10px;">Looking for cool fits for little cash :)
             <br>Only taking Card or Mobilepay right now</p>
     </div>
 </div><p style="margin-left: 10px; margin-bottom: 10px; font-size: 20px; font-family:'Libre Baskerville', sans-serif">You have recently sold</p>
@@ -45,19 +65,21 @@
     <span><b>Your Personal Wallet QR Code</b></span>
 </div>
 <img src="Danielpictures/DanielQRCode.png" class="QRCode">
-<br>
-<div class="twoColumns" style="margin-left: 10px">
-    <div class="left"> <p style="font-size: 10px; font-family: Arial, sans-serif; color: #736d5a; margin-bottom: 4px">Need help?</p>
-        <div class="contact">
-            <i class="fa-regular fa-envelope fa-xl" style="color: #ffffff;"></i> &nbsp; &nbsp; <i class="fa-solid fa-phone fa-lg" style="color: #ffffff;"></i></div>
-    </div>
-    <div class="right"><p style="font-size: 10px; font-family: Arial, sans-serif; color: #736d5a; margin-bottom: 4px">Follow us here</p>
-        <div class="SoMe">
-            <i class="fa-brands fa-instagram fa-xl" style="margin-right: 50px"></i>
-            <i class="fa-brands fa-facebook-f fa-xl" style="margin-right: 50px"></i>
-            <i class="fa-brands fa-x-twitter fa-xl SoMeIcon"></i>
+<section class="MenuBottom">
+    <div class="MenuBottomContainer">
+        <p class="HelpText">Need Help?</p>
+        <div class="NeedHelp">
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-solid fa-phone"></i>
+        </div>
+        <p class="FollowText">Follow us here</p>
+        <div class="FollowUs">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
         </div>
     </div>
-</div>
+</section>
+
 </body>
 </html>

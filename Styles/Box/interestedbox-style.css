@@ -13,12 +13,13 @@
     display:flex;
     position: relative;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     height:100%;
 }
 
 .InterestedBoxPictureContainer img {
     width: var(--InterestedPictureWidthValue);
+    height: var(--InterestedPictureHeightValue);
 }
 

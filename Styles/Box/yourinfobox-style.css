@@ -10,6 +10,7 @@
 
 .YourInfoPictureContainer img {
     width: var(--YourInfoProfilePictureWidth);
+    height: var(--YourInfoProfilePictureHeight);
     filter:drop-shadow(0px 1px 6px rgba(0,0,0,0.5));
     display:inline-block;
     position: relative;
@@ -19,12 +20,12 @@
 .YouText{
     margin:0;
     color: white;
-    font-weight:bold;
     display:inline-block;
     position: absolute;
     z-index: 2;
-    top: 1000px;
-    left: 18px;
+    top: 970px;
+    left: 20px;
+
 }
 
 
@@ -35,10 +36,11 @@
 }
 
 
+
 /* Extras */
 
 .MyQR{
-    transform: scale(60%);
+    transform: scale(55%);
     display:inline-block;
     position: absolute;
     left: 200px;

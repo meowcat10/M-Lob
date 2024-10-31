@@ -78,16 +78,20 @@ main {
 }
 
 .profile-pic {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    width: 50px;
     margin-right: 5px;
 }
 
-.favorite {
-    font-size: 24px;
-    color: red;
+/* Heart */
+.profile-heart{
+    transform:scale(60%);
+    display:inline-block;
+    position: absolute;
+    top:15px;
+    left:18px;
 }
+
+
 
 .image-counter {
     text-align: center;
@@ -136,42 +140,6 @@ main {
     margin-top: 10px;
     font-size: 14px;
     color: #666;
-}
-
-footer {
-    .twoColumns {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .right {
-        max-width: 100%;
-        margin-left: 10px;
-    }
-    .contact{
-        color: #ffffff;
-        text-align: left;
-        font-size: 15px;
-        border-radius: 10px;
-        background: rgb(114, 108, 89);
-        padding: 8px;
-
-        height: 18px;
-        vertical-align: center;
-        box-shadow: 2px 5px 6px rgba(57, 48, 48, 0);
-    }
-    .SoMe{
-        color: #736d5a;
-        text-align: left;
-        font-size: 15px;
-        border-radius: 10px;
-        background: rgba(255, 255, 255, 0);
-        padding: 8px;
-        max-width: 70%;
-        height: 18px;
-        box-shadow: 2px 5px 6px rgba(57, 48, 48, 0);
-        justify-content: space-evenly;
-    }
 }
 
 .help-links img {
